@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header{
+    background-color: whitesmoke;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 13px 100px;
+}
+
+.logo{
+    text-decoration: none;
+    color: darkturquoise ;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.4em;
+}
+
+.navigation a{
+    color: darkturquoise;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 400;
+    padding-left: 30px;
+}
+
+.navigation a:hover{
+    color: darkmagenta;
+}
+
+section{
+    padding: 100px 200px;
+}
+
+.main{
+    width: 100;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(imgs/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner_1258-54340.avif) no-repeat;
+    background-size: cover; 
+    background-position: center;
+    background-attachment:fixed;
+}
+
+.main h2{
+    color: snow;
+    font-size: 1.3em;
+    font-weight: 500;
+}
+
+.main h2 span{
+    display: inline-block;
+    margin: 9px;
+    color: darkturquoise;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.main h3{
+    color: snow;
+    font-size: 1.4em;
+    font-weight: 650;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;   
+}
+
+.main-btn{
+    color: black;
+    background-color: darkturquoise;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9365em 2.1758em;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    margin-bottom: 35px;
+    transition: 0.6s ease;
+}
+
+.main-btn:hover{
+    background-color: darkmagenta;
+    transform: scale(1.1);
+}
+.social-icons a{
+    color: white;
+    font-size: 1.7em;
+    padding-right: 25px;
+    
+}
